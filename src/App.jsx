@@ -9,7 +9,7 @@ import Navbar from "./exam/EventNavBar"
 import EventRegistation from "./exam/EventRegistation"
 import Home from "./exam/Home";
 import EventUsers from "./exam/EventUsers"
-import APIdemo from "./exam/Apidemo";
+import Apidemo from "./exam/Apidemo";
 
 
 
@@ -24,7 +24,7 @@ function App() {
     <Route path="/home" element={<Home/>} />
     <Route path="/" element={<EventRegistation/>} />
     <Route path="/eventusers" element={<EventUsers/>} />
-    <Route path="/apidata" element={<APIdemo/>}/>
+    <Route path="/apidemo" element={<Apidemo/>}/>
     </Routes>
     </BrowserRouter>
   )

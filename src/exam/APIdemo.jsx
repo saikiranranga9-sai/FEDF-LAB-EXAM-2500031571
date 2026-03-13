@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function APIdemo() {
+function Apidemo() {
 
   const [data, setData] = useState([]);
 
@@ -45,4 +45,4 @@ function APIdemo() {
   );
 }
 
-export default APIdemo;
+export default Apidemo;
