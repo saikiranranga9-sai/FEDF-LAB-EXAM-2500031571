@@ -37,11 +37,11 @@ function EventRegistation() {
   return (
     <div className="container">
 
-      <h2>User Registration</h2>
+      <h2>Event Registration</h2>
 
       <form onSubmit={handleSubmit}>
 
-        <input name="name" placeholder="Name" value={user.name} onChange={handleChange} />
+        <input name="eventname" placeholder="Event Name" value={user.eventname} onChange={handleChange} />
 
         <select name="gender" value={user.gender} onChange={handleChange}>
           <option value="">Select Gender</option>
