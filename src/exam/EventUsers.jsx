@@ -9,7 +9,6 @@ function EventUsers() {
     setUsers(data);
   }, []);
 
-  // Delete Function
   const deleteUser = (index) => {
 
     const updatedUsers = users.filter((user, i) => i !== index);
